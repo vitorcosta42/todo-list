@@ -13,7 +13,6 @@ import styles from "./App.module.css";
 // Interface
 import { ITask } from "./interfaces/Task";
 import Modal from "./components/Modal";
-import { updateElementAccess } from "typescript";
 
 function App() {
   const [taskList, setTaskList] = useState<ITask[]>([]);
